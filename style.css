@@ -1,0 +1,236 @@
+﻿body {
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+/*Página principal*/
+
+header {
+    background: linear-gradient(#ffe3be, #d1c1f1);
+    padding: 10px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 15px 100px 25px 100px;
+}
+
+.principal {
+    position: absolute;
+    top: 85px;
+    right: -350px;
+}
+
+.principal li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+.principal a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.principal a:hover {
+    color: #ff8080;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+
+.titulo-inicio {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #DCDCDC;
+}
+
+.inicio {
+    padding: 3em 0;
+    background: linear-gradient(#d1c1f1, #FFFFFF);
+    margin: -3px auto;
+}
+
+.inicio p {
+    text-align: left;
+    margin: 0 0 1em;
+}
+
+.inicio strong {
+    font-weight: bold;
+}
+
+.inicio em {
+    font-style: italic;
+}
+
+.lanche {
+    width: 120px;
+    float: left;
+    margin: -1px 20px 20px 300px;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: linear-gradient(#FFFFFF, #e4d6ff);
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 450px;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.3;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "✭";
+    color: #0040ff;
+}
+
+.alguem-comendo {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #9a9a9a;
+}
+
+.alguem-comendo:hover {
+    opacity: 0.3;
+}
+
+/* ---------------------------- */
+
+/*Do copyright*/
+
+footer {
+    text-align: center;
+    background: #e4d6ff;
+    padding: 10px 0;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+/* ------------------- */
+
+/*Página do Cardápio*/
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.imagemcardapio {
+    width: 90px; 
+    height: 90px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 5px 1.9%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: burlywood;
+}
+
+.produtos li:active {
+    border-color:navajowhite;
+}
+
+.produtos li:hover h2 {
+    font-size: 28px;
+}
+
+.produtos h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 15px;
+}
+
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+/* ------------------- */
+
+/*Página de contato*/
+
+.menu-contatos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 25px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px 90px;
+    width: 35%;
+}
+
+.checkbox {
+    margin: 15px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #ffdcaa;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #ffeed4;
+    transform: scale(1.2);
+}
