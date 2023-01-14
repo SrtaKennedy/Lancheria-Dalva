@@ -33,6 +33,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imgcardapio", "imgcardapio"
 		imgcardapio\sanduiche.png = imgcardapio\sanduiche.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estilos", "Estilos", "{8F6F5AC1-7444-4FD6-AD88-0C2B2413CF1B}"
+	ProjectSection(SolutionItems) = preProject
+		reset.css = reset.css
+		style.css = style.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
