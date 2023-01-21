@@ -13,7 +13,7 @@
   <img height="300" src="https://user-images.githubusercontent.com/90563215/213890058-04f31724-0c5b-4ebc-985a-5dc411a1a78d.gif"  />
 </div>
 
-<br>
+<hr>
 
 | Tecnologias utilizadas: |
 | ----------------------- |
