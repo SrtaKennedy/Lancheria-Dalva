@@ -193,7 +193,7 @@ footer {
 
 .menu-contatos {
     width: 940px;
-    margin: 0 auto;
+    padding: 0px 0px 10px 90px;
 }
 
 form {
@@ -207,10 +207,10 @@ form label, form legend {
 }
 
 .input-padrao {
-    display: block;
+    /*display: block;*/
     margin: 0 0 15px;
-    padding: 10px 90px;
-    width: 35%;
+    padding: 8px 60px;
+    width: 38%;
 }
 
 .checkbox {

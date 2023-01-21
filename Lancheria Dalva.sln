@@ -9,13 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dalva", "Dalva", "{FBC6B8D0
 		contato.html = contato.html
 		index.html = index.html
 		reset.css = reset.css
+		script.js = script.js
 		style.css = style.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imagens", "imagens", "{5D0AE2A5-609D-4456-9949-40A891012443}"
 	ProjectSection(SolutionItems) = preProject
-		..\Lancheria Dalva\imagens\comendo.png = ..\Lancheria Dalva\imagens\comendo.png
 		..\..\Downloads\banner.png = ..\..\Downloads\banner.png
+		..\Lancheria Dalva\imagens\comendo.png = ..\Lancheria Dalva\imagens\comendo.png
 		imagens\copyright.png = imagens\copyright.png
 		..\Lancheria Dalva\imagens\lanche.jpg = ..\Lancheria Dalva\imagens\lanche.jpg
 		..\Lancheria Dalva\imagens\logo.png = ..\Lancheria Dalva\imagens\logo.png
@@ -33,12 +34,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imgcardapio", "imgcardapio"
 		imgcardapio\sanduiche.png = imgcardapio\sanduiche.png
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estilos", "Estilos", "{8F6F5AC1-7444-4FD6-AD88-0C2B2413CF1B}"
-	ProjectSection(SolutionItems) = preProject
-		reset.css = reset.css
-		style.css = style.css
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,7 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5D0AE2A5-609D-4456-9949-40A891012443} = {FBC6B8D0-E5A4-43B7-953B-46252A22F95C}
 		{4FF7D9A3-8CAB-4C68-BFE7-4B47782DB469} = {FBC6B8D0-E5A4-43B7-953B-46252A22F95C}
-		{8F6F5AC1-7444-4FD6-AD88-0C2B2413CF1B} = {FBC6B8D0-E5A4-43B7-953B-46252A22F95C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4FC1C4E-AF37-402D-9F8D-51A437937090}
